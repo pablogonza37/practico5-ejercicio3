@@ -1,10 +1,10 @@
-body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-main{
-    flex-grow: 1;
-    
+main {
+  flex-grow: 1;
+  background-image: url("https://previews.123rf.com/images/jhk2303/jhk23031509/jhk2303150900015/44590037-vista-superior-del-cuaderno-con-pantalla-en-blanco-l%C3%A1piz-auriculares-y-caf%C3%A9-sobre-fondo-de-madera.jpg");
 }

@@ -7,6 +7,9 @@ function agregarTarea() {
     }
 
     const lista = document.getElementById("listaTareas");
+    
+    const tituloLista = document.querySelector("#lista");
+    tituloLista.innerHTML = 'Lista de tareas'
 
     const nuevaTarea = document.createElement("li");
     nuevaTarea.className = "list-group-item d-flex justify-content-between align-items-center";
