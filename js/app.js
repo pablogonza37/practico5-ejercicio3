@@ -27,3 +27,5 @@ function agregarTarea() {
     const tarea = elemento.parentNode;
     tarea.parentNode.removeChild(tarea);
   }
+
+  
