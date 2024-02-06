@@ -2,10 +2,26 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+
+  background: #0f3443; /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #0f3443 0%,
+    #34e69f 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #0f3443 0%,
+    #34e69f 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0f3443 0%,
+    #34e69f 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f3443', endColorstr='#34e69f',GradientType=1 ); /* IE6-9 */
 }
 
 main {
   flex-grow: 1;
-  background-image: url("https://previews.123rf.com/images/jhk2303/jhk23031509/jhk2303150900015/44590037-vista-superior-del-cuaderno-con-pantalla-en-blanco-l%C3%A1piz-auriculares-y-caf%C3%A9-sobre-fondo-de-madera.jpg");
-  background-size: cover;
 }
